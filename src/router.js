@@ -6,7 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Cart from "./components/store/cart";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import InsertForm from "./components/blog/insert";
-import BlogDetail from "./components/blog/detail";
+import BlogDetail from "./components/blog/detail.tsx";
 import HomePage from "./components/page/home";
 import { useCartContext } from "./contexts/cart-context";
 
